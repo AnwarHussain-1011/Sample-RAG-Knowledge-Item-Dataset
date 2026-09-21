@@ -1,0 +1,10 @@
+.env
+.archive.zip
+archive.zip
+.venv/
+__pycache__/
+.pytest_cache/
+.streamlit/
+*.pyc
+data/index.json
+evaluation/results/*.json

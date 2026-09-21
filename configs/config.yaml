@@ -1,0 +1,11 @@
+project: HelpDeskRAG
+retrieval:
+  default_mode: hybrid
+  top_k: 5
+  candidate_k: 20
+chunking:
+  size: 400
+  overlap: 60
+models:
+  embedding: tfidf
+  llm_provider: extractive
